@@ -6,6 +6,7 @@ import './plugins/element.js'
 
 Vue.config.productionTip = false
 
+// 这是vue的初始化配置入口
 new Vue({
   router,
   store,

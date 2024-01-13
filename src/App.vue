@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- 这里告诉路由，我的路由变化界面在这里显示 -->
     <router-view></router-view>
   </div>
 </template>
@@ -16,12 +17,4 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
