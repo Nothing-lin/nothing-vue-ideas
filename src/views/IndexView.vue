@@ -95,7 +95,7 @@
     background-color: #FFF9EA;
     width: 100%;
     height: 100vh;
-    margin: 0;
+    margin: -10px;
     padding: 0;
     overflow: auto;
 }

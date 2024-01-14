@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import IndexView from '../views/IndexView.vue'
+import TimeLineView from '../views/TimeLineView.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'index',
-    component: IndexView
+    name: 'TimeLineView',
+    component: TimeLineView
   },
   {
     path: '/about',
